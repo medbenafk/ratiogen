@@ -1,0 +1,52 @@
+body {
+  font-family: monospace, sans-serif;
+  background-color: #333745;
+}
+
+h1 {
+  font-size: 44pt; 
+  width: 80;
+  text-align: center;
+  color: #FFF;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: none;
+  margin: none;
+  height: 75vh;
+}
+
+#ratio-field {
+  background-color: #93A8AC;
+  padding: 5%;
+  text-justify: center;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 25pt;
+  color: white;
+}
+
+#ratio-count {
+  font-size: 24pt;
+  color: white;
+  background-color: #93A8AC;
+}
+
+#generate {
+  font-size: 22pt;
+  border-radius: 2%;
+  background-color: #00A878;
+  color: white;
+  transition: 0.3s ease;
+  margin-top: 1vh;
+}
+
+#generate:hover {
+  background-color: #008f66;
+}
